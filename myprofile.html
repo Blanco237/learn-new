@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My USWAP Profile</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+	<style type="text/css">
+		
+		.topbar{
+			position: relative;
+			float: left;
+			width: 100%;
+			height: 55px;
+		}
+
+		.topbar h2{
+			position: relative;
+			float: left;
+			margin-top: 5px;
+			margin-left: 40px;
+			font-family: sans-serif;
+		}
+
+
+	.topbar ul{
+	position: relative;
+	width:190%;
+	height: 5vh;
+	list-style: none;
+	background: #white;
+	font-family: sans-serif;
+}
+
+.topbar .logo{
+	position: relative;
+	float:left;
+	width:130px;
+	height:37px;
+	left:29px;
+	margin-top: 2px;
+}
+
+
+.credentials{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 200px;
+/*	background:  #E6FBFE;*/
+}
+
+.credentials img{
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: blue;
+	margin-left: 70px;
+	margin-top: 40px;
+	border-radius: 50px;
+}
+
+.topbar i{
+	position:relative;
+	float: left;
+	width: 30px;
+	height: 10px;
+	margin-left: 30px;
+	margin-top: 10px;
+	left: 30px;
+}
+
+.credentials h3{
+	position:relative;
+	float: left;
+	width: 200px;
+	height: 10px;
+	left: 60px;
+	top: 40px;
+	font-family:sans-serif;
+	font-size: 22px;
+}
+
+.starrate{
+	position:relative;
+	float:left;
+	margin-top: 90px;
+	left: -142px;
+}
+
+.profilebuttons{
+	position:relative;
+	float: left;
+	width: 500px;
+	height: 35px;
+	left: 80px;
+	top:30px;
+	margin-bottom: 30px;
+}
+
+.profilebuttons .listing{
+	position:relative;
+	float: left;
+	width: 100px;
+	height: 35px;
+	margin-left:5px;
+	border-radius: 10px;
+	background: white;
+	border-style : solid;
+	border-color: black;
+	border-width: 0.03px;
+}
+.profilebuttons .likedby{
+	position:relative;
+	float: left;
+	width: 100px;
+	height: 35px;
+	margin-left:5px;
+	border-radius: 10px;
+	background: white;
+	border-style : solid;
+	border-color: black;
+	border-width: 0.03px;
+}
+
+.profilebuttons .makelist{
+	position:relative;
+	float: left;
+	width: 100px;
+	height: 35px;
+	margin-left:5px;
+	border-radius: 10px;
+	background: #80D0DB;
+	border-style : solid;
+	border-color: black;
+	border-width: 0.03px;
+}
+
+.alllisting{
+	position:relative;
+	float: left;
+	width: 1430px;
+	height: 1000px;
+	top:30px;
+
+}
+
+.oneitem{
+	left:15%;
+	transform: translateX(-50%);
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 230px;
+	background: #E6FBFE;
+	margin: 15px 10px 15px 10px;
+	border-color: black;
+	border-radius: 30px;
+	border-style: solid;
+	border-width: 0.2px;
+	margin-top: 60px;
+}
+
+.oneitem img{
+  width: 300px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.alllisting .oneitem h3{
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 20px;
+	top: -60px;
+	left: 10px;
+	font-family: sans-serif;
+	font-size: 17px;
+
+}
+
+.alllisting .oneitem h4{
+	position: relative;
+	float: left;
+	width: 280px;
+	height: 20px;
+	top: -17px;
+	left: 10px;
+	font-family: sans-serif;
+	font-size: 20px;
+} 
+
+h6{
+	position: absolute;
+	float: left;
+	left: 98px;
+	top: 350px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+</style>
+</head>
+<body>
+
+	<div class=topbar> 
+				<img src="./logo.png" class="logo">
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+				<i class="fa fa-home" aria-hidden="true"></i>
+				<i class="fa fa-heart" aria-hidden="true"></i>
+	</div>	
+
+
+
+	<hr style="width:95%;text-align:left;margin-left:8">
+
+
+
+
+	<div class="credentials">
+		<img src="./me.png" class="avatar" width=50 height=50>
+		<h3>username</h3>
+		<div class = "starrate">
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<i class="fa fa-star" aria-hidden="true"></i>
+		</div>
+	</div>
+
+	<div class = "profilebuttons">
+		<button class="listing">Your Listings</button>
+		<button class="likedby">Your Liked</button>
+		<button class="makelist">Make A Listing</button>
+	</div>
+
+<h6>Tap on your listing to edit or delete it</h6>
+
+		<div class= "alllisting">
+			<div class="oneitem"> 
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Umbrella</h4>
+				<h3>$7</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Brandy Melville T-shirt</h4>
+				<h3>$16</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>UCLA hoodie</h4>
+				<h3>$16</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Title</h4>
+				<h3>$16</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Title</h4>
+				<h3>$16</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Title</h4>
+				<h3>$16</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Title</h4>
+				<h3>$16</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Title</h4>
+				<h3>$16</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Title</h4>
+				<h3>$16</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Title</h4>
+				<h3>$16</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Title</h4>
+				<h3>$16</h3>
+			</div>
+			<div class="oneitem">
+				<img src="./shirt.png" class="shirt1" width=300 height=200>
+				<h4>Title</h4>
+				<h3>$16</h3>
+			</div>
+	</div>
+
+
+</body>
+</html>
